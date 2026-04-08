@@ -1,65 +1,91 @@
-# My Portfolio Website - Overview 🚀
+# Tushar Nirmal Portfolio
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+A modern developer portfolio built with React, TypeScript, Vite, GSAP, and Three.js.
 
----
+This project showcases my work, skills, and contact details through a smooth animated experience with interactive 3D elements and scroll-based transitions.
 
-## ⚠️ Usage Notice
+## Features
 
-This project is shared for learning purposes only.
+- Responsive personal portfolio website
+- Animated landing section with GSAP
+- Smooth scroll interactions
+- Interactive 3D experience powered by Three.js and React Three Fiber
+- Project showcase section
+- Skills and tech stack highlights
+- Contact section for quick reach-out
 
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+## Tech Stack
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
+- React
+- TypeScript
+- Vite
+- GSAP
+- Three.js
+- React Three Fiber
+- CSS
 
-Build your own version — don’t just copy.
+## Getting Started
 
-— Moncy Yohannan
+### Prerequisites
 
----
+- Node.js
+- npm
 
-## 🛠️ Instructions
+### Installation
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+```bash
+npm install
+```
 
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
+### Run Locally
 
----
+```bash
+npm run dev
+```
 
-## ⚙️ Tech Stack
+The app will start on a local Vite development server.
 
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+### Production Build
 
----
+```bash
+npm run build
+```
 
-## 🎨 Assets Usage
+### Preview Production Build
 
-Some 3D assets included in this repository are free to use for learning purposes.
+```bash
+npm run preview
+```
 
-However:
+## Project Structure
 
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
+```text
+src/
+  components/        Reusable UI and section components
+  components/utils/  Animation and helper utilities
+  context/           App-level providers
+  data/              Static portfolio data
+public/
+  images/            Portfolio images
+  models/            3D assets
+```
 
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+## Deployment
 
----
+This project is ready to deploy on platforms like Netlify or Vercel.
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+For Netlify:
 
----
+- Build command: `npm run build`
+- Publish directory: `dist`
 
-## 📄 License
+A `netlify.toml` file is included for deployment configuration.
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
+## Notes
 
-See the LICENSE file for full details
+- This project uses the standard `gsap` package for production-safe deployment.
+- If content changes are not visible after deployment, make sure the latest changes are pushed to GitHub and the hosting platform has completed a fresh rebuild.
 
+## License
+
+This project is licensed under the license provided in [LICENSE](./LICENSE).
